@@ -14,7 +14,7 @@ wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/inst
 source install_geographiclib_datasets.sh
 
 # install the python catkin package manager
-pip3 install python-catkin_pkg
+sudo pip3 install python-catkin_pkg
 
 # make catkin workspace directory and move into it
 mkdir -p ~/catkin_ws/src && cd ~/catkin_ws/

@@ -48,7 +48,7 @@ cd ~/catkin_ws
 rosdep install --from-paths src --ignore-src -r -y
 
 # Install Cython
-pip install Cython
+sudo pip install Cython
 
 # Install rangelibc (Enable CUDA support)
 cd ~/catkin_ws/src/range_libc/pywrapper
