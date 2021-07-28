@@ -16,6 +16,8 @@ source install_geographiclib_datasets.sh
 # install the python catkin package manager
 sudo pip3 install python-catkin_pkg
 
+rm install_geographiclib_datasets.sh
+
 # make catkin workspace directory and move into it
 mkdir -p ~/catkin_ws/src && cd ~/catkin_ws/
 
