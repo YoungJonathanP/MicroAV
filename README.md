@@ -29,7 +29,7 @@ To install:
 ```
 $ sudo source microav_install_scripts.sh
 ```
-* The default password for the image is **jetson**
+* The default password for the image is: **jetson**
 * Wait for the script to run. When it is complete it will let you know.
 
 ## Note
