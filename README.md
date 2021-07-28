@@ -27,7 +27,7 @@ To install:
 * Download the [microav_install_scripts.sh](https://github.com/YoungJonathanP/MicroAV/blob/main/microav_install_script.sh)
 * Open the terminal and run the script with administrator privileges
 ```
-$ sudo source microav_install_scripts.sh
+$ source microav_install_scripts.sh
 ```
 * The default password for the image is: **jetson**
 * Wait for the script to run. When it is complete it will let you know.
