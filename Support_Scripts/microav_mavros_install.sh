@@ -10,11 +10,10 @@ wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/inst
 #	 for an executable:
 # chmod +x install_geographiclib_datasets.sh
 # 	or for manual install
-# sudo bash install_geographiclib_datasets.sh
-source install_geographiclib_datasets.sh
+sudo bash install_geographiclib_datasets.sh
 
 # install the python catkin package manager
-sudo pip3 install python-catkin_pkg
+sudo apt install install python3-catkin-pkg -y
 
 rm install_geographiclib_datasets.sh
 
