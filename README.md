@@ -1,4 +1,4 @@
-#Micro-AV build Scripts
+# Micro-AV build Scripts
 
 The scripts here are intended to build a working base environment compatible with the MicroAV Jetson Nano MuSHR car.
 After following these instructions you will have a Jetson Nano installed with:
@@ -8,7 +8,7 @@ After following these instructions you will have a Jetson Nano installed with:
 * TorchVision 	0.9.1
 * and more
 
-##Installation
+## Installation
 
 In order to use this you will need several tools. 
 
@@ -29,9 +29,10 @@ To install:
 ```
 $ sudo source microav_install_scripts.sh
 ```
+
 	- The default password for the image is **jetson**
 * Wait for the script to run. When it is complete it will let you know.
 
-##Note
+## Note
 
 This installation has several tools that are specific to the MicroAV MuSHR platform. While it shares many similarities with the [MuSHR build](https://mushr.io/) it is not identical.
