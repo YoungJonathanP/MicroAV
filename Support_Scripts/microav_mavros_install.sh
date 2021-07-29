@@ -14,7 +14,7 @@ sudo bash install_geographiclib_datasets.sh
 
 # install the python catkin package manager
 # Do not use the apt installer- this will uninstall all python2 catkin tools
-pip3 install catkin-pkg
+sudo -H pip3 install catkin-pkg
 
 rm install_geographiclib_datasets.sh
 

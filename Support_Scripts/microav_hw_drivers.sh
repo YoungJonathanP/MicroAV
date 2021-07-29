@@ -31,7 +31,7 @@ sudo udevadm control --reload-rules
 sudo udevadm trigger
 
 # Install GPIO library
-sudo pip install Jetson.GPIO
+sudo -H pip install Jetson.GPIO
 sudo groupadd -f -r gpio
 sudo usermod -a -G gpio $USER
 sudo wget https://raw.githubusercontent.com/NVIDIA/jetson-gpio/master/lib/python/Jetson/GPIO/99-gpio.rules -O /etc/udev/rules.d/99-gpio.rules
