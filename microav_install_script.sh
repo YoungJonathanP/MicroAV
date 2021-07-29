@@ -14,9 +14,9 @@ fi
 echo "Installing Yolov5"
 cd ~
 wget https://raw.githubusercontent.com/YoungJonathanP/MicroAV/main/Support_Scripts/microav_yolov5_install.sh
-source microav_install_yolov5.sh
+source microav_yolov5_install.sh
 cd ~
-rm microav_install_yolov5.sh
+rm microav_yolov5_install.sh
 
 # Install ROS
 echo "Installing ROS"
@@ -41,14 +41,14 @@ cd ~
 wget https://raw.githubusercontent.com/YoungJonathanP/MicroAV/main/Support_Scripts/microav_mushr_stack.sh
 source microav_mushr_stack.sh
 cd ~
-rm mushr_install_stack.sh
+rm microav_mushr_stack.sh
 
 # Install hardware drivers
 echo "Installing Hardware Drivers"
 cd ~
 wget https://raw.githubusercontent.com/YoungJonathanP/MicroAV/main/Support_Scripts/microav_hw_drivers.sh
-source mushr_install_hw_drivers.sh
+source microav_hw_drivers.sh
 cd ~
-rm mushr_install_hw_drivers.sh
+rm microav_hw_drivers.sh
 
 echo "Installation complete."
