@@ -15,7 +15,7 @@ sudo apt-get update
 sudo apt-get install python3-vcstool -y
 
 # Install pip
-sudo apt install python-pip -y
+# sudo apt install python-pip -y
 
 # Install extra ROS packages
 sudo apt install -y ros-melodic-ackermann-msgs ros-melodic-map-server ros-melodic-serial ros-melodic-urg-node ros-melodic-robot-state-publisher ros-melodic-xacro ros-melodic-joy -y
