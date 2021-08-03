@@ -1,6 +1,7 @@
 #!/bin/bash
 
-#This script is intended for use with the Micro-AV MuSHR car. Written and maintained by Jonathan Young. Adapted from https://raw.githubusercontent.com/prl-mushr/mushr/master/mushr_utils/install_scripts/mushr_install.sh 
+# This script is intended for use with the Micro-AV MuSHR car. Written and maintained by Jonathan Young. Adapted from https://raw.githubusercontent.com/prl-mushr/mushr/master/mushr_utils/install_scripts/mushr_install.sh 
+# Please see https://github.com/YoungJonathanP/MicroAV for readme and script structure
 
 echo "This script will install all libraries necessary for the MuSHR racecar compatible with the Micro-AV equipment stack. It assumes that this SD card has freshly been flashed with the pre-built Micro-AV image, and that there is an internet connection"
 read -p "Would you like to proceed with installation? [y/n]" -n 1 -r
