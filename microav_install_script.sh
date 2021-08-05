@@ -11,14 +11,6 @@ then
     exit 1
 fi
 
-# Install Yolov5
-echo "Installing Yolov5"
-cd ~
-wget https://raw.githubusercontent.com/YoungJonathanP/MicroAV/main/Support_Scripts/microav_yolov5_install.sh
-source microav_yolov5_install.sh
-cd ~
-rm microav_yolov5_install.sh
-
 # Install ROS
 echo "Installing ROS"
 cd ~
@@ -26,15 +18,6 @@ wget https://raw.githubusercontent.com/YoungJonathanP/MicroAV/main/Support_Scrip
 source microav_ros_support.sh
 cd ~
 rm microav_ros_support.sh
-
-# Install MAVROS packages for ardupilot
-echo "Installing MAVROS"
-cd ~
-wget https://raw.githubusercontent.com/YoungJonathanP/MicroAV/main/Support_Scripts/microav_mavros_install.sh
-source microav_mavros_install.sh
-cd ~
-rm microav_mavros_install.sh
-
 
 # Install MuSHR stack
 echo "Installing MuSHR stack"
@@ -51,5 +34,21 @@ wget https://raw.githubusercontent.com/YoungJonathanP/MicroAV/main/Support_Scrip
 source microav_hw_drivers.sh
 cd ~
 rm microav_hw_drivers.sh
+
+# Install Yolov5
+echo "Installing Yolov5"
+cd ~
+wget https://raw.githubusercontent.com/YoungJonathanP/MicroAV/main/Support_Scripts/microav_yolov5_install.sh
+source microav_yolov5_install.sh
+cd ~
+rm microav_yolov5_install.sh
+
+# Install MAVROS packages for ardupilot
+echo "Installing MAVROS"
+cd ~
+wget https://raw.githubusercontent.com/YoungJonathanP/MicroAV/main/Support_Scripts/microav_mavros_install.sh
+source microav_mavros_install.sh
+cd ~
+rm microav_mavros_install.sh
 
 echo "Installation complete."
