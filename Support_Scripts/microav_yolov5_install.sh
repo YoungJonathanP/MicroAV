@@ -9,5 +9,5 @@ sudo -H pip3 install matplotlib==3.3.4 PyYAML==5.4.1 scipy==1.5.4
 cd ~
 
 # Clone ultralytics yolov5 repo
-echo “Cloning YoloV5 from https://github.com/ultralytics/yolov5”
+echo “*** Cloning YoloV5 from https://github.com/ultralytics/yolov5 ***”
 git clone https://github.com/ultralytics/yolov5.git
