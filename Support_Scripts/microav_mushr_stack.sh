@@ -34,7 +34,7 @@ catkin_make
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/catkin_ws/devel/setup.bash
 
-echo "export ROS_IP=10.42.0.1" >> ~/.bashrc
+# echo "export ROS_IP=10.42.0.1" >> ~/.bashrc
 
 # Get repo info
 cd ~/catkin_ws/src
