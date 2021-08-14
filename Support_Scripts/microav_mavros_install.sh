@@ -18,8 +18,9 @@ sudo -H pip3 install catkin-pkg rospkg
 
 rm install_geographiclib_datasets.sh
 
-# make catkin workspace directory and move into it
-mkdir -p ~/catkin_ws/src && cd ~/catkin_ws/
+# make catkin workspace directory and move into it (directory should exist already)
+#mkdir -p ~/catkin_ws/src && cd ~/catkin_ws/
+cd ~/catkin_ws/
 
 # build the workspace
 catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
