@@ -19,7 +19,7 @@ In order to use this you will need several tools.
 
 To install:
 
-* Download the base JetsonNano.zip [image](https://drive.google.com/file/d/1pAR5bnCtCfcO8XYbJbPB2-0DckblQhR7/view?usp=sharing)
+* Download the base JetsonNano.zip [image](https://drive.google.com/file/d/1KIpzvcp5mv4PC30-_lozyIgNARn7PJKr/view?usp=sharing)
 * Follow the instructions for your system per the [Nvidia Developer](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write) page.
 	- Recommend using [balenaEtcher](https://www.balena.io/etcher/) to flash the SD card and mount the image.
 * Plug the newly flashed micro SD card into the Jetson Nano and power on the device.
