@@ -25,7 +25,7 @@ To install:
 * Plug the newly flashed micro SD card into the Jetson Nano and power on the device.
 	- It is recommended to have a mouse/keyboard/monitor to discover the IP address the first login.
 * Download the [microav_install_scripts.sh](https://github.com/YoungJonathanP/MicroAV/blob/main/microav_install_script.sh)
-* Open the terminal and run the script with administrator privileges
+* Open the terminal on the jetson nano and run the script with administrator privileges
 ```
 source microav_install_scripts.sh
 ```
