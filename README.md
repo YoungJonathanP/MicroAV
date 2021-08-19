@@ -2,8 +2,8 @@
 
 The scripts here are intended to build a working base environment compatible with the MicroAV Jetson Nano MuSHR car.
 After following these instructions you will have a Jetson Nano installed with:
-* JetPack 	4.5.1
-* OpenCV 	4.5.2
+* JetPack 	4.6.1
+* OpenCV 	4.5.3
 * Pytorch 	1.8.1
 * TorchVision 	0.9.1
 * and more
@@ -25,7 +25,7 @@ To install:
 * Plug the newly flashed micro SD card into the Jetson Nano and power on the device.
 	- It is recommended to have a mouse/keyboard/monitor to discover the IP address the first login.
 * Download the [microav_install_scripts.sh](https://github.com/YoungJonathanP/MicroAV/blob/main/microav_install_script.sh)
-* Open the terminal on the jetson nano and run the script with administrator privileges
+* Open the terminal and run the script with administrator privileges
 ```
 source microav_install_scripts.sh
 ```
