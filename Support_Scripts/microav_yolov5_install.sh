@@ -10,4 +10,4 @@ cd ~
 
 # Clone ultralytics yolov5 repo
 echo “*** Cloning YoloV5 from https://github.com/ultralytics/yolov5 ***”
-git clone https://github.com/ultralytics/yolov5.git
+git clone https://github.com/YoungJonathanP/yolov5.git
